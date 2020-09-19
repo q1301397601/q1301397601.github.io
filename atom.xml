@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>hojun</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://q1301397601.github.io/"/>
+  <updated>2020-09-19T05:24:47.960Z</updated>
+  <id>https://q1301397601.github.io/</id>
+  
+  <author>
+    <name>hojun</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>控制BBC Microbit 每个LED灯（六）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/%E6%8E%A7%E5%88%B6BBC-Microbit-%E6%AF%8F%E4%B8%AALED%E7%81%AF%EF%BC%88%E5%85%AD%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/控制BBC-Microbit-每个LED灯（六）/</id>
+    <published>2020-09-19T05:22:41.000Z</published>
+    <updated>2020-09-19T05:24:47.960Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Step1：添加代码 1.首先添加25个按钮，进而控制小灯的亮灭&lt;/p&gt;
+&lt;h5 id=&quot;Control-Every-LED&quot;&gt;&lt;a href=&quot;#Control-Every-LED&quot; class=&quot;headerlink&quot; title=&quot;Control
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>控制BBC Microbit LED灯的行列（五）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/%E6%8E%A7%E5%88%B6BBC-Microbit-LED%E7%81%AF%E7%9A%84%E8%A1%8C%E5%88%97%EF%BC%88%E4%BA%94%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/控制BBC-Microbit-LED灯的行列（五）/</id>
+    <published>2020-09-19T05:21:59.000Z</published>
+    <updated>2020-09-19T05:29:12.740Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;通过Web Bluetooth控制Microbit LED小灯的行列 Step1：修改代码 1.接着要修改HTML代码，在web添加按钮，总共有10个按钮：&lt;/p&gt;
+&lt;h3 id=&quot;Write-Characteristic-Ran-Lights&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MicroBit蓝牙启用通知（四）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/MicroBit%E8%93%9D%E7%89%99%E5%90%AF%E7%94%A8%E9%80%9A%E7%9F%A5%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/MicroBit蓝牙启用通知（四）/</id>
+    <published>2020-09-19T05:21:27.000Z</published>
+    <updated>2020-09-19T05:26:27.584Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在本系列的前几部分中，我了解了如何使用Web蓝牙API来发现蓝牙低能耗(LE)设备、形成连接、发现和缓存GATT服务和特征以及读写特征值在。最后一部分中，我们将学习如何使用通知。 一，要添加的代码内容和相关的解析 step1:用户界面状态
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MicroBit蓝牙设备进行读写特性（三）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/MicroBit%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87%E8%BF%9B%E8%A1%8C%E8%AF%BB%E5%86%99%E7%89%B9%E6%80%A7%EF%BC%88%E4%B8%89%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/MicroBit蓝牙设备进行读写特性（三）/</id>
+    <published>2020-09-19T05:20:49.000Z</published>
+    <updated>2020-09-19T05:29:58.150Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在MicroBit开发板服务添加成功后，我们要修改电脑端源码进行读写操作，从而控制开发板LED灯的亮灭。 一，修改源码 Step1:阅读特性的相关代码 function readModelNumber() {        
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MicroBit蓝牙设备添加服务（二）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/MicroBit%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87%E6%B7%BB%E5%8A%A0%E6%9C%8D%E5%8A%A1%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/MicroBit蓝牙设备添加服务（二）/</id>
+    <published>2020-09-19T05:20:06.000Z</published>
+    <updated>2020-09-19T05:26:17.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;继Micro:bit蓝牙设备成功连接之后，就需添加相应的服务特性。我们的开发板在成功连接之后，我们不能让其只处于连接，我们要慢慢控制板子，优化程序，要想使用板子上的功能，就需要将相应的服务添加上去，让开发板激活相应的服务功能，近而通过修改电脑端源码进行操控板子。
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MicroBit蓝牙设备连接教程（一）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/MicroBit%E8%93%9D%E7%89%99%E8%AE%BE%E5%A4%87%E8%BF%9E%E6%8E%A5%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/MicroBit蓝牙设备连接教程（一）/</id>
+    <published>2020-09-19T05:19:21.000Z</published>
+    <updated>2020-09-19T05:25:37.622Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Micro:bit是由英国BBC公司推出的一款手持式可编程的微型计算机，可用于各种很新潮的创新，从机器人到乐器 –
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Sakura主题的安装</title>
+    <link href="https://q1301397601.github.io/2020/09/19/Sakura%E4%B8%BB%E9%A2%98%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>https://q1301397601.github.io/2020/09/19/Sakura主题的安装/</id>
+    <published>2020-09-19T05:18:45.000Z</published>
+    <updated>2020-09-19T05:27:25.692Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;如果觉得默认的landscape主题不好看，那么可以在Hexo官方主题页，选择你喜欢的一个主题进行修改就可以啦。每个主题的使用方法略有不同，所以如果你是跟我一样的小白，建议使用流行热门的主题，这样出现问题网上基本都可以搜到解决方法。 安装主题
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Verilog HDL笔记（二）</title>
+    <link href="https://q1301397601.github.io/2020/09/19/Verilog-HDL%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>https://q1301397601.github.io/2020/09/19/Verilog-HDL笔记（二）/</id>
+    <published>2020-09-19T05:18:04.000Z</published>
+    <updated>2020-09-19T05:27:43.250Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1.闪烁灯分频(4个交替闪烁） module light(clk,ledout);//clk是一个信号       intput clk;       output[7:0] ledout;       reg[7:0] ledout;       reg[24:0]
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Verilog HDL笔记(一)</title>
+    <link href="https://q1301397601.github.io/2020/09/19/Verilog-HDL%E7%AC%94%E8%AE%B0-%E4%B8%80/"/>
+    <id>https://q1301397601.github.io/2020/09/19/Verilog-HDL笔记-一/</id>
+    <published>2020-09-19T05:17:30.000Z</published>
+    <updated>2020-09-19T05:33:25.095Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一，Verilog HDL语言数据类型 1．常量 （1）数字常量 Verilog HDL 语言中的数值集合由以下 4 个基本的值组成： 1——代表逻辑 1 或真状态； 0——代表逻辑 0 或假状态； X（或 x）——代表逻辑不定态； Z（或 z）——代表高阻态 2．变量
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>购买域名+github绑定域名</title>
+    <link href="https://q1301397601.github.io/2020/09/19/%E8%B4%AD%E4%B9%B0%E5%9F%9F%E5%90%8D-github%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
+    <id>https://q1301397601.github.io/2020/09/19/购买域名-github绑定域名/</id>
+    <published>2020-09-19T05:16:40.000Z</published>
+    <updated>2020-09-19T05:26:52.200Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;购买域名+Github绑定域名 关于购买域名不是强求的，也可以使用github pages给你的免费域名，但这个域名太长，在进行输入时会很不方便，所以建议购买域名，这样给你自己带来了方便，也给别人带来了方便 Step1：购买选择域名&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>win10搭建Hexo--超详细</title>
+    <link href="https://q1301397601.github.io/2020/09/19/win10%E6%90%AD%E5%BB%BAHexo-%E8%B6%85%E8%AF%A6%E7%BB%86/"/>
+    <id>https://q1301397601.github.io/2020/09/19/win10搭建Hexo-超详细/</id>
+    <published>2020-09-19T05:15:20.000Z</published>
+    <updated>2020-09-19T05:27:04.325Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;关于博客对于小白来说可以是一头雾水，由于网上的教程很多不完整，让人很头疼，接下来我对win10系统怎样搭建hexo搭建做个解析，可以帮助小白创建一个属于自己的博客。 Hexo简介
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>小网站分享</title>
+    <link href="https://q1301397601.github.io/2020/09/19/%E5%B0%8F%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
+    <id>https://q1301397601.github.io/2020/09/19/小网站分享/</id>
+    <published>2020-09-19T05:14:13.000Z</published>
+    <updated>2020-09-19T05:26:41.757Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#前言 个人收集的一些小网站，希望可以帮助大家在未来学习中解决问题，有用的请记得收藏哦！^-^ &lt;/p&gt;
+&lt;p&gt;1.我要自学网
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PicGo-jsDelivr-GitHub搭建免费cdn图床</title>
+    <link href="https://q1301397601.github.io/2020/09/19/PicGo-jsDelivr-GitHub%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9cdn%E5%9B%BE%E5%BA%8A/"/>
+    <id>https://q1301397601.github.io/2020/09/19/PicGo-jsDelivr-GitHub搭建免费cdn图床/</id>
+    <published>2020-09-19T05:05:54.000Z</published>
+    <updated>2020-09-19T05:26:05.754Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;前言 CDN的全称是Content Delivery
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://q1301397601.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+</feed>
